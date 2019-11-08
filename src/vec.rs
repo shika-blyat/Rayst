@@ -19,7 +19,15 @@ impl Vec3 {
             z: 0f32,
         }
     }
-
+    pub fn x(&self) -> f32 {
+        self.x
+    }
+    pub fn y(&self) -> f32 {
+        self.y
+    }
+    pub fn z(&self) -> f32 {
+        self.z
+    }
     pub fn length(&self) -> f32 {
         self.squared_length().sqrt()
     }
