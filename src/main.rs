@@ -17,7 +17,7 @@ fn write_in_file(data: &str){
 fn render() {
 	let mut data = format!("P3\n{} {}\n255\n",NX,NY);
 	let lower_left = Vec3::new(-2.0, -1.0, -1.0);
-	let horizontal = Vec3::new(-2.0, -1.0, -1.0);
+	let horizontal = Vec3::new(4.0, 0.0, 0.0);
 	let vertical = Vec3::new(0.0, 2.0, 0.0);
 	let origin = Vec3::new(0.0, 0.0, 0.0);
 	for j in (0..NY).rev(){
