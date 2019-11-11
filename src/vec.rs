@@ -58,7 +58,7 @@ impl Vec3 {
         }
     }
 
-    pub fn dot_product(left: &Vec3, right: &Vec3) -> f32 {
+    pub fn dot(left: &Vec3, right: &Vec3) -> f32 {
         left.x * right.x + left.y * right.y + left.z * right.z
     }
 }
