@@ -52,3 +52,4 @@ fn hit_sphere(center: Vec3, radius: f32, r: Ray) -> bool {
 	let discriminant: f32 = b*b - 4.0*a*c;
 	discriminant > 0.0
 }
+// t*t*dot(​B​,​B​) + 2*t*dot(​B,A​-​C​) + dot(​A-C,A​-​C​)
